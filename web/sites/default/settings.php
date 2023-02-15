@@ -314,6 +314,7 @@ $settings['hash_salt'] = 'gZglAARtJJiBJuiA_HvO7Bm6mq-VqfhR6EZGOEZ_RVG54WfKnQFaMG
  * TRUE back to a FALSE!
  */
 $settings['update_free_access'] = FALSE;
+$config['system.logging']['error_level'] = 'verbose';
 
 /**
  * External access proxy settings:
