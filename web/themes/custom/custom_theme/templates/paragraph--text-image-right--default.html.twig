@@ -1,0 +1,13 @@
+{{ dump() }}
+{% set title= content.field_titre.0["#context"].value %}
+{% set description= content.field_description.0["#text"] %}
+{% set image= content.field_image.0["#markup"] %}
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
+    {{ title }}
+    </h5>
+    <p class="card-text">{{ description|raw }}</p>
+  </div>
+  <img src="{{ image }}" class="card-img-bottom" alt="...">
+</div>

@@ -20,7 +20,9 @@
         "drupal/core-composer-scaffold": "^9",
         "drupal/core-project-message": "^9",
         "drupal/core-recommended": "^9",
-        "drupal/simplify_menu": "2.1"
+        "drupal/paragraphs": "1.12",
+        "drupal/simplify_menu": "2.1",
+        "drupal/twig_vardumper": "3.0.2"
     },
     "conflict": {
         "drupal/drupal": "*"
