@@ -1,0 +1,8 @@
+name: Custom Theme
+type: theme
+core_version_requirement: ^8 || ^9
+base theme: bootstrap5
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'
