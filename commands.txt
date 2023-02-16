@@ -1,0 +1,19 @@
+cd htdocs
+composer create-project drupal/recommended-project hope ^"9.0.2" --prefer-dist
+composer require drupal/layout_content:^1.0
+cd hope
+composer require drupal/bootstrap5:1.1.3
+drush cr
+composer global update
+composer dump-autoload
+composer update --ignore-platform-reqs
+drush en layout
+ composer require drupal/simplify_menu:2.1
+ drush en simplify_menu
+drush cr
+composer require drupal/paragraphs:1.12
+drush en paragraphs
+drush cr
+composer require drupal/twig_vardumper:3.0.2
+drush en twig_vardumper
+drush cr
