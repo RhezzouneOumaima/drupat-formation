@@ -5,8 +5,13 @@ function layout_theme($existing, $type, $theme, $path) {
         'header_block'=>[
             'template'=>'header',
             'variables'=>[
-                'content'=>[]
-            ]
-        ],
+                'content'=>[],
+            ]],
+            'articles_block'=>[
+                'template'=>'block/articles-block',
+                'variables'=>[
+                'terms'=>[],
+                ]
+        ]
         ];
 }
